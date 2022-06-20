@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner
+{
+	width:100%;
+	height:200px;
+    margin-bottom:10px;
+	
+}
+.welcome
+{
+	width:100%;
+	padding:30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#about{
+    padding-left:10%;
+    padding-right:10%;
+    text-align:justify;
+}
+
+#about p{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#crschedule{
+    display:none;
+}
+
+
+#offcampus,#regional{
+    display:none;
+}
+
+#protype td select{
+    width: 330px;
+}
+
+#oncampus td select, #offcampus td select, #regional td select,#dor td input{
+    width:330px;
+}
+
+#durconduct td input, #durissue td input, #venue td input{
+    width:330px;
+}
+
+
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
